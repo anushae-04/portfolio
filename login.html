@@ -5,7 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Login</title>
+
+    <style>
+        .date_input{
+            margin-bottom:15px;
+        }
+
+        .fetch_result{
+            margin-top:10px;
+        }
+    </style>
 </head>
+
 <body>
     <div class="project_container">
         <h2 class="main_heading">Login</h2>
@@ -16,10 +27,14 @@
 
         <input type="password" class="date_input" id="password" placeholder="Password">
 
-        <button class="fetch_result" onClick="loginUser()">Login</button>
+        <button class="fetch_result">Login</button>
+
+        <p>
+            Don't have an account?
+            <a href="signup.html">Sign Up</a>
+        </p>
 
         <div class="result-text" id="result"></div>
-    </div> 
-  
+    </div>
 </body>
 </html>
